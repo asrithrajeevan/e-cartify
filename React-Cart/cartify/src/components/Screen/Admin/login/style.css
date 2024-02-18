@@ -1,0 +1,35 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-bottom: 7%
+}
+.register-title{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.register-form {
+    width: 350px;
+    margin-bottom: 11%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

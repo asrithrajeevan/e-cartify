@@ -1,0 +1,13 @@
+.container-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d7d7;
+    padding-bottom: 12.5%;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 15px;
+}

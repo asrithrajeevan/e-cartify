@@ -1,0 +1,48 @@
+.product-container {
+    display: flex; /* if came multiple images it show row ways  */
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.product-item {
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.product-item:hover{
+    background-color: rgb(209, 209, 209);;
+}
+
+.image-container{
+    object-fit: contain;
+}
+
+.product-image{
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.product-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-custom {
+    padding: 5px;
+    width: 110px;
+    background-color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 10px;
+}
+.btn-custom:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+}

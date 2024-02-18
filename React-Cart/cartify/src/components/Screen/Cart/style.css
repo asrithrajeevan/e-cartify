@@ -1,0 +1,26 @@
+.cart-table-container{
+    margin: 10px;
+}
+.bin-button{
+    border: 0px;
+}
+
+.bin-image:hover{
+    width: 40px;
+    height: 40px;
+}
+.bottam-table{
+    width: 35%;
+    text-align: center;
+    display: flex;
+    right: 10px;
+    position: absolute;
+}
+
+.EmptyCart{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
